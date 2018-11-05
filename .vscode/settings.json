@@ -1,0 +1,12 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"jshint.enable": false,
+	"eslint.enable": true,
+	"eslint.autoFixOnSave": true,
+	"editor.formatOnSave": false,
+	"javascript.format.enable": true,
+	"files.eol": "\n",
+	"files.insertFinalNewline": false
+}

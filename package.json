@@ -1,0 +1,25 @@
+{
+	"name": "frontent-js-rectangles",
+	"private": true,
+	"description": "JavaScript rectangles intersection task",
+	"author": "Constantine Genchevsky <const.gen@gmail.com>",
+	"version": "1.0.0",
+	"main": "build/index.js",
+	"license": "GPL-3.0",
+	"dependencies": {},
+	"devDependencies": {
+		"neutrino": "8.3.0",
+		"@neutrinojs/node": "8.3.0",
+		"@neutrinojs/banner": "8.3.0",
+		"@atomspace/eslint": "2.2.0",
+		"@neutrinojs/jest": "8.3.0",
+		"@neutrinojs/clean": "8.3.0",
+		"source-map-support": "~0.5.9"
+	},
+	"scripts": {
+		"test": "neutrino test --verbose --watchAll --noStackTrace --silent",
+		"build": "neutrino build",
+		"start": "neutrino start",
+		"lint": "neutrino lint --fix"
+	}
+}
